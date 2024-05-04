@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="tic_tac.css">
+    <script src="tic_tac.js"></script>
+    
+</head>
+<body>
+    <h1 style="color: red;background-color: #070647;margin-top: 0px;padding-top: 0px;">Tic Tac Toe</h1>
+    <div class="board" id="board">
+        <div class="cell" onclick="handleCellClick(0)"></div>
+        <div class="cell" onclick="handleCellClick(1)"></div>
+        <div class="cell" onclick="handleCellClick(2)"></div>
+        <div class="cell" onclick="handleCellClick(3)"></div>
+        <div class="cell" onclick="handleCellClick(4)"></div>
+        <div class="cell" onclick="handleCellClick(5)"></div>
+        <div class="cell" onclick="handleCellClick(6)"></div>
+        <div class="cell" onclick="handleCellClick(7)"></div>
+        <div class="cell" onclick="handleCellClick(8)"></div>
+    </div>
+    <br><br>
+    <button type="button"><a style="text-decoration: none;font-size: 15px;" href="tic_tac.html">Restart the game</a>
+    </button>
+    <audio id="moveSound" src="WhatsApp Audio 2024-05-05 at 01.35.37.mpeg"></audio>
+    <p style="color: red;font-family: Arial, Helvetica, sans-serif;font-size: 29px;" id="winner"></p>
+
+   
+</body>
+</html>
