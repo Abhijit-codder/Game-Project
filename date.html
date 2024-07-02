@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking Site</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <!-- Include header -->
+    <header>
+        <img src="assets/images/logo.png" alt="Site Logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Welcome to Our Booking Site!</h1>
+            <p>Book your next adventure with us,creted with tour pakages with love and care...</p>
+        </section>
+        <section class="booking-form">
+            <h2>Book Now</h2>
+            <form action="booking.php" method="post">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+                
+                <label for="checkin">Check-in Date:</label>
+                <input type="date" id="checkin" name="checkin" required>
+                
+                <label for="checkout">Check-out Date:</label>
+                <input type="date" id="checkout" name="checkout" required>
+                
+                <label for="guests">Number of Guests:</label>
+                <input type="number" id="guests" name="guests" required>
+                
+                <button type="submit">Book Now</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Include footer -->
+    <footer>
+        <p>&copy; 2024 Booking Site. All rights reserved.</p>
+    </footer>
+</body>
+</html>
